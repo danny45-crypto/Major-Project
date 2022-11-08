@@ -23,7 +23,7 @@ body {
 }
 
 .first_item {
-       margin-right: 120px; 
+       margin-right: 140px; 
        padding: 15px 20px;
 }
 
@@ -65,13 +65,8 @@ body {
 
 .second_content {
     display: flex;
-    width: 70px;
-    justify-content: center;
+    justify-content: space-between;
 }
-
-
-
-
 
 
 
@@ -79,5 +74,18 @@ body {
     border-radius: 70%;
     width: 25px;
 } 
+
+.col {
+    width: 250px;
+    text-align: center;
+    color: #fff;
+    background: hsl(300, 43%, 22%);
+    border-radius: 3%;
+}
+
+.last_paragraph {
+   color: hsl(333, 80%, 67%);
+}
+
 
 
