@@ -8,12 +8,13 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 4.8rem;
+    background: aqua;
 }
 
 .first_content {
     display: flex;
     margin-bottom: 45px;
-    align-items: center;
+    align-items: center; 
 }
 
 .first_heading {
@@ -23,13 +24,12 @@ body {
 }
 
 .first_item {
-       margin-right: 140px; 
-       padding: 15px 20px;
+       margin-right: 180px;
 }
 
  .btn {
     margin: 0.3rem;
-    padding: 5px 20px;
+    padding: 8px 20px;
     color: hsl(300, 43%, 22%);
     font-family: 'League Spartan';
     font-weight: 500;
@@ -73,6 +73,9 @@ body {
 .col img {
     border-radius: 70%;
     width: 25px;
+    position: relative;
+    right: 55px;
+    bottom: -20px;
 } 
 
 .col {
@@ -81,11 +84,36 @@ body {
     color: #fff;
     background: hsl(300, 43%, 22%);
     border-radius: 3%;
+    font-weight: normal;
+    font-family: 'League Spartan';
 }
 
 .last_paragraph {
    color: hsl(333, 80%, 67%);
+   position: relative;
+   left: -30px;
+   margin-top: 5px;
 }
 
+.first_column{
+    padding: 5px;
+}
 
+.second_column {
+    padding: 5px;
+    position: relative;
+    bottom: -15px;
+}
 
+.third_column {
+    padding: 5px;
+    position: relative;
+    bottom: -30px;
+}
+
+.last_text {
+    position: relative;
+    top: 5px;
+    right: 45px;
+    bottom: -10px;
+}
