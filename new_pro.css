@@ -92,7 +92,7 @@ body {
    color: hsl(333, 80%, 67%);
    position: relative;
    left: -25px;
-   margin-top: 5px;
+   margin-top: 7px;
 }
 
 .first_column{
@@ -111,9 +111,15 @@ body {
     bottom: -30px;
 }
 
+.new_text {
+    position: relative;
+    right: 45px;
+    top: 5px;
+}
+
 .last_text {
     position: relative;
     top: 5px;
-    right: 45px;
+    right: 42px;
     bottom: -10px;
 }
