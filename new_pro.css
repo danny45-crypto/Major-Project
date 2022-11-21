@@ -78,7 +78,8 @@ body {
 } 
 
 .col {
-    width: 250px;
+    width: 215px;
+    height:150px;
     text-align: center;
     color: #fff;
     background: hsl(300, 43%, 22%);
@@ -95,17 +96,17 @@ body {
 }
 
 .first_column{
-    padding: 5px;
+    padding: 20px;
 }
 
 .second_column {
-    padding: 5px;
+    padding: 20px;
     position: relative;
     bottom: -15px;
 }
 
 .third_column {
-    padding: 5px;
+    padding: 20px;
     position: relative;
     bottom: -30px;
 }
